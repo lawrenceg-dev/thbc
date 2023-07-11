@@ -22,6 +22,11 @@ img {
   border-radius: 50%;
 }
 
+.border-brown {
+  border: solid 2rem;
+  color: brown;
+}
+
 a {
   cursor: pointer;
 }
@@ -40,7 +45,7 @@ a:hover {
   li:nth-child(1) {
     grid-column: 1/span 2;
     grid-row: 1/span 2;
-    transform: rotate(45deg);
+    transform: rotate(30deg);
   }
 
   li:nth-child(2) {
@@ -54,9 +59,9 @@ a:hover {
   }
 
   li:nth-child(4) {
-    grid-column: 3/span 2;
-    grid-row: 3/span 2;
-    transform: rotate(-45deg);
+    grid-column: 4/span 3;
+    grid-row: 2/span 3;
+    transform: rotate(-15deg);
   }
 
   li:nth-child(5) {
@@ -77,4 +82,9 @@ a:hover {
   li:nth-child(8) {
     grid-column: 4/span 1;
     grid-row: 1/span 1;
+  }
+
+  li:nth-child(9) {
+    grid-column: 3/span 2;
+    grid-row: 7/span 2;
   }
