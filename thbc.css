@@ -100,7 +100,7 @@ body {
 
   .footer-text {
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
   .link-text {
@@ -120,7 +120,7 @@ body {
     border-width: 0.5rem;
     border-radius: 0.8rem;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     cursor: pointer;
     margin-top: 0.10rem;
     padding-top: 0.10rem;
@@ -170,9 +170,9 @@ body {
   }
 
   .white-button {
-    width: 2.5rem;
-    height: 1.8rem;
-    font-size: 0.8rem;
+    width: 3rem;
+    height: 2.5rem;
+    font-size: 1rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
