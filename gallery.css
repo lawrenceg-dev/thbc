@@ -5,14 +5,18 @@ body, html {
     font-size: 16px;
 }
 
+:root {
+  font-size: 16px;
+}
+
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .pink-text {
     color: rgb(201, 110, 125);
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -23,7 +27,7 @@ img {
 }
 
 .border-brown {
-  border: solid 2rem;
+  border: solid 1rem;
   color: brown;
 }
 
@@ -79,9 +83,10 @@ a:hover {
     grid-row: 7/span 2;
   }
 
+   /* <----- bonny ----->*/
   li:nth-child(8) {
-    grid-column: 4/span 1;
-    grid-row: 1/span 1;
+    grid-column: 4/span 2;
+    grid-row: -1/span 2;
   }
 
   li:nth-child(9) {
@@ -93,3 +98,25 @@ a:hover {
     grid-column: 1/span 2;
     grid-row: 8/span 2;
   }
+
+    /* <-------------------media queries ------------------>*/
+    @media screen and (max-width: 400px){
+      .border {
+        border: solid 0.3rem;
+        color: pink;
+        border-radius: 50%;
+      }
+      
+      .border-brown {
+        border: solid 0.3rem;
+        color: brown;
+      }
+
+      .pink-text {
+        color: rgb(201, 110, 125);
+        text-align: center;
+        font-size: 1.3rem;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    }
