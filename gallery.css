@@ -11,12 +11,13 @@ body, html {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 .pink-text {
     color: rgb(201, 110, 125);
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -101,7 +102,7 @@ a:hover {
   }
 
     /* <-------------------media queries ------------------>*/
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 481px){
       .border {
         border: solid 0.3rem;
         color: pink;
@@ -116,7 +117,7 @@ a:hover {
       .pink-text {
         color: rgb(201, 110, 125);
         text-align: center;
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-shadow: 1px 1px 1px black;
     }
 
