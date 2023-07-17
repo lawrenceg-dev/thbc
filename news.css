@@ -2,7 +2,7 @@
     background-color: beige;
 }
 
-.map-text {
+.news-text {
     color: maroon;
     text-align: center;
     font-size: 2rem;
@@ -12,9 +12,20 @@
     padding-top: 0;
   }
 
+  .fb-text {
+    color: rgb(59, 89, 152);
+    background-color: azure;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
  /* <-------------------media queries ------------------>*/
     @media screen and (max-width: 481px){
-  .map-text {
+  .news-text {
     font-size: 1.2rem;
+  }
+  .fb-text {
+    font-size: 1rem;
   }
 }
