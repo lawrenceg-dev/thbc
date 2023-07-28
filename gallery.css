@@ -3,6 +3,8 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     font-size: 16px;
+    height: 100vh;
+    width: auto;
 }
 
 :root {
@@ -28,8 +30,13 @@ img {
 }
 
 .border-brown {
-  border: solid 1rem;
+  border: solid 0.8rem;
   color: brown;
+}
+
+.border-black {
+  border: solid 1rem;
+  color: black;
 }
 
 a {
@@ -101,6 +108,13 @@ a:hover {
     grid-row: 8/span 2;
   }
 
+  li:nth-child(11) {
+    grid-column: 5/span 3;
+    grid-row: 7/span 2;
+  }
+
+
+
     /* <-------------------media queries ------------------>*/
     @media screen and (max-width: 481px){
       .border {
@@ -109,9 +123,8 @@ a:hover {
         border-radius: 50%;
       }
       
-      .border-brown {
+      .border-brown, .border-black {
         border: solid 0.3rem;
-        color: brown;
       }
 
       .pink-text {
