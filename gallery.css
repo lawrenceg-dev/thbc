@@ -113,6 +113,17 @@ a:hover {
     grid-row: 7/span 2;
   }
 
+ /* <----- original sign ----->*/
+  li:nth-child(12) {
+    grid-column: 6/span 1;
+    grid-row: 6/span 1;
+  }
+
+  li:nth-child(13) {
+    grid-column: 1/span 2;
+    grid-row: 9/span 2;
+  }
+
 
 
     /* <-------------------media queries ------------------>*/
