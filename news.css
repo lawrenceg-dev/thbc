@@ -61,6 +61,12 @@ body {
     margin-right: auto;
   }
 
+  hr {
+    border-top: 2px dashed blue;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
  /* <-------------------media queries ------------------>*/
     @media screen and (max-width: 481px){
   .news-text {
