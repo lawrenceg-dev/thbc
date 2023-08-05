@@ -29,6 +29,11 @@ body {
     margin-bottom: 0;
   }
 
+.pic-img {
+  box-shadow: 3px 3px 25px 5px rgba(0,0,0,0.4);
+  border-radius: 1rem;
+}
+
 .container {
     padding: 0.3rem;
     display: grid;
@@ -59,7 +64,7 @@ body {
 }
 
 .footer {
-  background-image:linear-gradient(rgb(13, 13, 71),blue,white); 
+  background-image:linear-gradient(rgb(13, 13, 71),rgb(71, 71, 97),white); 
 }
 
   .h1 {
