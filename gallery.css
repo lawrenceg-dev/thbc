@@ -126,6 +126,11 @@ a:hover {
     grid-row: 9/span 2;
   }
 
+  li:nth-child(14) {
+    grid-column: 3/span 3;
+    grid-row: 9/span 2;
+  }
+
 
 
     /* <-------------------media queries ------------------>*/

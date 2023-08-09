@@ -59,8 +59,8 @@ body {
 }
 
 .footer {
-    background-image:linear-gradient(rgb(13, 13, 71), rgb(71, 71, 97),white);
-
+  /*  background-image:linear-gradient(rgb(13, 13, 71), rgb(71, 71, 97),white);*/
+    background-image: linear-gradient(rgb(104, 86, 62), rgb(119, 101, 78), rgb(146, 146, 114), lightyellow, rgb(241, 237, 230));
 }
 
   .h1 {
@@ -89,7 +89,7 @@ body {
   .p-text, .footer-text {
     color: black;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
     margin-top: 0.5rem;
@@ -100,7 +100,7 @@ body {
 
   .footer-text {
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   
   .link-text {
