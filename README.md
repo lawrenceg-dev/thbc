@@ -14,3 +14,4 @@ Uploaded additional images 01/08/2023
 Uploaded amended Index file 01/08/2023
 Uploaded main index and css files 07/08/2023
 Uploaded main index and css files 10/08/2023
+Uploaded main css - media query adjusts 10/08/2023
