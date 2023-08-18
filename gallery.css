@@ -157,8 +157,13 @@ a:hover {
   }
 
   li:nth-child(19) {
-    grid-column: 5/span 3;
+    grid-column: 6/span 3;
     grid-row: 12/span 2;
+  }
+
+  li:nth-child(20) {
+    grid-column: 2/span 1;
+    grid-row: 9/span 1;
   }
 
     /* <-------------------media queries ------------------>*/
