@@ -121,17 +121,45 @@ a:hover {
     grid-row: 6/span 1;
   }
 
+/* <----- hut view ----->*/
   li:nth-child(13) {
     grid-column: 1/span 2;
-    grid-row: 9/span 2;
+    grid-row: 10/span 2;
   }
 
   li:nth-child(14) {
-    grid-column: 3/span 3;
+    grid-column: 3/span 4;
     grid-row: 9/span 2;
   }
 
+/* <----- Wal & Al ----->*/
+  li:nth-child(15) {
+    grid-column: 1/span 2;
+    grid-row: 11/span 2;
+    z-index: 2;
+  }
 
+/* <----- bowls top left ---->*/
+  li:nth-child(16) {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    transform: rotate(30deg);
+  }
+
+  li:nth-child(17) {
+    grid-column: 3/span 3;
+    grid-row: 11/span 2;
+  }
+
+  li:nth-child(18) {
+    grid-column: 2/span 3;
+    grid-row: 13/span 2;
+  }
+
+  li:nth-child(19) {
+    grid-column: 5/span 3;
+    grid-row: 12/span 2;
+  }
 
     /* <-------------------media queries ------------------>*/
     @media screen and (max-width: 481px){
