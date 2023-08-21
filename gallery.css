@@ -123,7 +123,7 @@ a:hover {
 
 /* <----- hut view ----->*/
   li:nth-child(13) {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     grid-row: 10/span 2;
   }
 
@@ -135,7 +135,7 @@ a:hover {
 /* <----- Wal & Al ----->*/
   li:nth-child(15) {
     grid-column: 1/span 2;
-    grid-row: 11/span 2;
+    grid-row: 12/span 2;
     z-index: 2;
   }
 
@@ -150,9 +150,9 @@ a:hover {
     grid-column: 3/span 3;
     grid-row: 11/span 2;
   }
-
+/* <----- church wall view  ---->*/
   li:nth-child(18) {
-    grid-column: 2/span 3;
+    grid-column: 3/span 3;
     grid-row: 13/span 2;
   }
 
@@ -162,9 +162,16 @@ a:hover {
   }
 
   li:nth-child(20) {
-    grid-column: 2/span 1;
+    grid-column: 1/span 2;
     grid-row: 9/span 1;
   }
+
+  /* <----- overhead view ----->*/
+  li:nth-child(21) {
+    grid-column: 5/span 3;
+    grid-row: 10/span 3;
+  }
+
 
     /* <-------------------media queries ------------------>*/
     @media screen and (max-width: 481px){
