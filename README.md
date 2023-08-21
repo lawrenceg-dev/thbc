@@ -17,3 +17,4 @@ Uploaded main index and css files 10/08/2023
 Uploaded main css - media query adjusts 10/08/2023
 Uploaded main css - media query adjusts 13.08.2023
 Uploaded main index - meta description amend
+Uploaded gallery update - 21/08/2023
