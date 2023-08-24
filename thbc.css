@@ -13,7 +13,6 @@ html{
 }
 
 :root {
-    font-size: 16px;
     --clr-primary:#651fff;
     --clr-gray:#37474f;
     --clr-gray-light:#b0bec5;
@@ -107,7 +106,6 @@ body {
 
   .footer-text {
     color: white;
-    font-size: 1rem;
   }
   
   .link-text {
