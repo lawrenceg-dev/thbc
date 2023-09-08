@@ -73,7 +73,7 @@ body {
   .header1-text {
     color: rgb(121, 90, 50);
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: normal;
     margin-bottom: 0;
     margin-top: 0.5rem;
@@ -82,7 +82,7 @@ body {
   .header2-text {
     color: black;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-top: 0.5rem;
     margin-bottom: 0;
   }
@@ -119,8 +119,8 @@ body {
   
   .find-button {
     background-color: rgb(238, 231, 231);
-    color: rgb(96, 96, 96);
-    border-color: rgb(245, 241, 241);
+    color: red;
+    border-color: rgb(247, 240, 240);
     border-top-style: groove;
     border-width: 0.5rem;
     border-radius: 0.8rem;
@@ -130,8 +130,6 @@ body {
     margin-top: 0.10rem;
     padding-top: 0.10rem;
     padding-right: 0.4rem;
-    transition: box-shadow 0.15s;
-    transition: opacity 0.15s;
     margin-bottom: 0.5rem;
   
   }
@@ -146,7 +144,8 @@ body {
     cursor: pointer;
     opacity: 0.8;
     color: blue;
-    box-shadow: 0.4em 0.4em 1em rgba (0, 0, 0, 0.15);
+    transition: box-shadow 0.15s;
+    transition: opacity 0.15s; 
   }
   
   .find-button:active {
@@ -182,6 +181,7 @@ body {
     border-radius: 0.5rem;
     border: none;
     outline: none;
+    font-weight: bold;
     background: var(--clr-med);
     box-shadow: 
       -2px -2px 7px var(--clr-light),
@@ -189,14 +189,15 @@ body {
       inset -1px -1px 3px var(--clr-light),
       inset 1px 1px 3px var(--clr-dark);
       color: var(--clr-dark-heavy);
-      margin-bottom: 0.5rem;
-      margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
   }
 
   .white-button:hover {
     cursor: pointer;
     opacity: 0.8;
-    color: var(--clr-primary);
+    /*color: var(--clr-primary);*/
+    color: red;
     box-shadow: 0.4em 0.4em 1em rgba (0, 0, 0, 0.15);
   }
   
