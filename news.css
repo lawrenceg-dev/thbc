@@ -10,6 +10,18 @@ body {
     background-color: beige;
 }
 
+.img-news {
+  float: left;
+  width: 33.33%;
+  padding: 0.5 rem;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .news-text {
     color: maroon;
     text-align: center;
