@@ -24,3 +24,4 @@ Updated News file 03/10/2023
 Updated News file 18/10/2023
 Updated News file 18/10/2023
 Updated News files and main CSS file 19/10/2023
+Updated News file, typo 07/11/2023
